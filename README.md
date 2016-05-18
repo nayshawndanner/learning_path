@@ -13,8 +13,12 @@ pathway --csv domain_order.csv student_tests.csv
 
 ### Setup ###
 
-The apps was built using python 3.5, after download use the help option like so:
+The apps was built using python 3.5, to configure the environment run the following command from the root of the project:
+```
+source /env/bin/activate
+```
 
+After download use the help option like so:
 ```
 #!bash
 pathway -h
